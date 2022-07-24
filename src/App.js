@@ -1,13 +1,14 @@
 import './App.css';
+import NavBar from './NavBar';
 import AppRouter from './AppRouter';
 
+//rfce+tab command, which will fill out the template of an element for you.
 function App() {
   return (
     <div className="App">
-      <ul id='nav-list'>
-        <li><a href="/home"> Home </a></li>
-        <li><a href="/test"> Test </a></li>
-      </ul>
+      <NavBar />
+
+
       <AppRouter />
     </div>
     
