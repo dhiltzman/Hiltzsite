@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 const home = () => {
   return (
       <h1>
-        Home is where the HTML can't hurt you
+        Home Page of HiltzSite
       </h1>
   );
 };
