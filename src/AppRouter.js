@@ -7,7 +7,7 @@ import DronePage from './pages/drone'
 import HomePage from './pages/home'
 import PrintingPage from './pages/printing'
 import ResumePage from './pages/resume'
-import TestPage from './pages/test'
+import ProjectsPage from './pages/projects'
 
 function AppRouter() {
   return (
@@ -31,8 +31,8 @@ function AppRouter() {
            <Route path = "/resume" element={
                 <ResumePage />
             } />                  
-            <Route path = "/test" element={
-                <TestPage />
+            <Route path = "/projects" element={
+                <ProjectsPage />
             } />
         </Routes>
     </BrowserRouter>
