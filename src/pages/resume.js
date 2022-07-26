@@ -1,6 +1,5 @@
 import React from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.parcel2';
-
 import SinglePagePDFViewer from "../components/single-page.js";
 /* For more information on react-pdf, visit https://github.com/wojtekmaj/react-pdf#configure-pdfjs-worker
 npm install react-pdf*/
