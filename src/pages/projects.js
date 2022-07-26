@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import App from '../App';
 
-const test = () => {
+const projects = () => {
   return (
       <h1>
         Fuckkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
@@ -10,4 +10,4 @@ const test = () => {
   );
 };
   
-export default test;
+export default projects;
