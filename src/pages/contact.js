@@ -6,6 +6,9 @@ function contact() {
       <h1>Contact Me!</h1>
       <p>Do not hesitate to reach out to me!</p>
 
+{/* Check out
+https://freefrontend.com/react-js-buttons/
+for social media buttons */}
       <p>
           <b>
           <a href="https://www.linkedin.com/in/david-hiltzman/">
