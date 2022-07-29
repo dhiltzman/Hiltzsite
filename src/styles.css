@@ -12,12 +12,6 @@ body {
     display: center;
     padding: 1 1rem;
 }
-.resume SinglePagePDFViewer{
-    display: 'flex';
-    align-items: 'center';
-    justify-content: 'center';
-    height: '100vh';
-}
 .nav {
     background-color: #333;
     color: white;
