@@ -1,12 +1,15 @@
 import React from 'react'
-import mavic2Picture from '../components/documents/mavic_2_profile_v2.jpg'
-import mavic2Picturev2 from '../components/documents/mavic_2_profile_v3.jpg'
+import mavic2Picture from '../components/documents/pictures/mavic_2_profile_v2.jpg'
+import mavic2Picturev2 from '../components/documents/pictures/mavic_2_profile_v3.jpg'
+import stillwaterOSUPic from '../components/documents/pictures/stillwaterOSUPic.png'
 import '../styles.css'
 
 function drone() {
-  {/* https://webflow.com/made-in-webflow/website/apertureandfocus*/}
-  {/* https://webflow.com/made-in-webflow/website/My-Portfolio-Website*/}
-  {/* https://webflow.com/made-in-webflow/website/Ascend-NTNU*/}
+  /* 
+    https://webflow.com/made-in-webflow/website/apertureandfocus*
+    https://webflow.com/made-in-webflow/website/My-Portfolio-Website
+    https://webflow.com/made-in-webflow/website/Ascend-NTNU
+  */
 
   return (
     <div className="drone">
@@ -17,7 +20,7 @@ function drone() {
 
       <hr /> 
 
-     {/*https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_text_top_left
+     {/* https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_text_top_left
       <div class="container">
         <img src={mavic2Picture}
           alt="mavic2" width="1000" height="300" />
@@ -27,13 +30,22 @@ function drone() {
       <hr /> */}
 
       {/* https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_slideleft */}
-      <div class="swipeLeft">
-        <img src={mavic2Picturev2} alt="mavic2Picturev2" class="image" />
-        <div class="overlay">
-          <div class="text">Hello World</div>
+      <div className="rotatedImageGallery">
+        <p className="rotatedImageGalleryText">
+          Stillwater OK, overlooking Oklahoma State University. 4-11-21
+        </p>
+        <div className="swipeLeft">
+
+          <img 
+            src={stillwaterOSUPic} 
+            alt="Stillwater OK, overlooking Oklahoma State University. 4-11-21" 
+            className="image" 
+          />
+          <div className="overlay">
+            <div className="text">Stillwater OK, overlooking Oklahoma State University. 4-11-21</div>
+          </div>
         </div>
       </div>
-
       <hr />
        {/* Image Modal: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_modal_js */}
 
