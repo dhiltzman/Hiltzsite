@@ -12,6 +12,7 @@ body {
     display: center;
     padding: 1 1rem;
 }
+
 .nav {
     background-color: #333;
     color: white;
@@ -25,6 +26,7 @@ body {
 .site-title {
     font-size: 2rem;
 }
+
 .nav ul{
     padding: 0;
     margin: 0;
@@ -53,33 +55,81 @@ body {
 .social-container {
     background: #eee;
     padding: 25px 25px;
-  }
+}
 
-  a.social {
-    margin: 1 1rem;
-    transition: transform 250ms;
-    display: inline-block;
-    padding: 25px 25px;
-  }
+a.social {
+  margin: 1 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+  padding: 25px 25px;
+}
 
-  a.social:hover {
-    transform: translateY(-2px);
-  }
+a.social:hover {
+  transform: translateY(-2px);
+}
 
-  a.linkedin {
-    color: #0077b5;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+a.linkedin {
+  color: #0077b5;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
-  a.youtube {
-    color: #eb3223;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+a.youtube {
+  color: #eb3223;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
-  a.github {
-    color: #333;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+a.github {
+  color: #333;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mavic2{
+  background-image: url("./components/documents/mavic_2_profile_v2.jpg");
+  background-color: grey;
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.swipeLeft {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.swipeLeft:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
