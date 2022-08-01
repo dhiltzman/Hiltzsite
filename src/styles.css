@@ -95,6 +95,12 @@ a.github {
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+.imageGallery {
+  gap: 50px;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
 div.gallery {
   border: 1px solid #ccc;
 }
