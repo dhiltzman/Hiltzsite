@@ -11,6 +11,8 @@ import littleHomeStillwaterOKPic from '../components/documents/pictures/littleHo
 import mcmurtryLakeStillwaterOKPic from '../components/documents/pictures/mcmurtryLakeStillwaterOK_6-9-21.png'
 import snowyStillwaterPic from '../components/documents/pictures/snowyStillwater_1-1-21.JPG'
 import tulsaOKPic from '../components/documents/pictures/tulsaOK_6-5-21.png'
+import scissortailParkPic from '../components/documents/pictures/scissortailParkOKCOK_9-28-20.png'
+import austinTXPic from '../components/documents/pictures/austinTX_6-27-22v2.jpg'
 
 function drone() {
   /* 
@@ -116,6 +118,24 @@ function drone() {
               <img src={tulsaOKPic} alt="Downtown Dallas, OK" width="600" height="400" />
             </a>
             <div className="desc">Tulsa, OK 6-18-21</div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <a target="_blank" href="/home">
+              <img src={scissortailParkPic} alt="Scissortail Park, Oklahoma City, OK" width="600" height="400" />
+            </a>
+            <div className="desc">Scissortail Park, Oklahoma City, OK 9-28-20</div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <a target="_blank" href="/home">
+              <img src={austinTXPic} alt="Austin, TX" width="600" height="400" />
+            </a>
+            <div className="desc">Austin, TX 6-27-22</div>
           </div>
         </div>
 
