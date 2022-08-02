@@ -170,10 +170,9 @@ const images = [
   },
 ]
 function printing() {
-
   return (
     <div>
-      <h1>printing </h1>
+      <h1>3D Printing and Design</h1>
       <ImageGallery items={images} />
     </div>
 

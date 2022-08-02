@@ -1,10 +1,19 @@
 
+/* 
+Color Palette Ideas:
+https://colorhunt.co/palette/411530d1512df5c7a9f5e8e4
+https://colorhunt.co/palette/911f27630a10fcf0c8face7f
+https://colorhunt.co/palette/7c3e66f2ebe9a5becc243a73
+https://colorhunt.co/palette/f76e11ff9f45ffbc80fc4f4f
+https://colorhunt.co/palette/bb6464cdb699c3dbd9c8f2ef
+*/
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    background-color: #CDB699;
 }
 
 .resume button{
@@ -14,7 +23,7 @@ body {
 }
 
 .nav {
-    background-color: #333;
+    background-color: #BB6464;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -33,6 +42,7 @@ body {
     list-style: none;
     display: flex;
     gap: 1rem;
+    font-size: 1.25rem;
 }
 
 .nav a{
@@ -45,11 +55,15 @@ body {
 }
 
 .nav li.active {
-    background-color: #555;
+    background-color: #C3DBD9;
+    color: black;
+    font-weight: bold;
 }
 
 .nav li:hover{
-    background-color: #777;
+    background-color: #C8F2EF;
+    color: black;
+    font-weight: bold;
 }
 
 .social-container {
