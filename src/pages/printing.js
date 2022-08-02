@@ -173,7 +173,37 @@ function printing() {
   return (
     <div>
       <h1>3D Printing and Design</h1>
-      <ImageGallery items={images} />
+      <hr />
+      <p>I have three printers capable of a wide range of printing abilities and designing rapid prototypes</p>
+      <p>If you have a prototype, or design idea, drop me a contact in the Contact (link later) page!</p>
+      <p>If you want a look at some more in depth info about the project, 
+          take a look at the Projects tab!</p>
+
+      <h2>FDM (Fused Deposition Modeling) printers:</h2>
+      <dl>
+        <dt><h3>Prusa MK3S</h3></dt>
+        <dd>This is my first investment.</dd>
+        <dd>I have had this printer active since 2018, and it's served faithfully!</dd>
+        <dd><i>Multi Material Updgrade Immenient!</i></dd>
+        <br />
+        <dt><h3>Tenlog TD-D3 Pro</h3></dt>
+        <dd>Dual printer head, capable of two colors at a time or support materials</dd>
+        <dd>This is an ongoing project, the Tenlog is a work in progress!!</dd>
+      </dl>
+        
+      <h2>SLA (Stereolithography) printer:</h2>
+        <dl>
+          <dt><b>Creality LD002R</b></dt>
+          <dd>This printer has been mostly used for precise molded parts for clients</dd>
+          <dd>I also use this printer for Miniature Figurines </dd>
+        </dl>
+      <h2>Printing Photos:</h2>
+
+      {/* React-Image-Gallery 
+        https://www.npmjs.com/package/react-image-gallery 
+      */}
+
+      <ImageGallery items={images} thumbnailPosition="left"/>
     </div>
 
   )
