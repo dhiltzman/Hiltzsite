@@ -20,13 +20,13 @@ function drone() {
     https://webflow.com/made-in-webflow/website/My-Portfolio-Website
     https://webflow.com/made-in-webflow/website/Ascend-NTNU
   */
-
   return (
     <div className="drone">
        <div className="mavic2">
-        <h1>Drone Videography</h1>
-        <p>some intro stuff blah blah blah</p>
+        <h1 className="mavic2header">Drone Videography</h1>
       </div>
+
+      <p>some intro stuff blah blah blah</p>
 
       <hr />
        {/* Image Modal: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_modal_js */}
@@ -126,7 +126,7 @@ function drone() {
             <a target="_blank" href="/home">
               <img src={scissortailParkPic} alt="Scissortail Park, Oklahoma City, OK" width="600" height="400" />
             </a>
-            <div className="desc">Scissortail Park, Oklahoma City, OK 9-28-20</div>
+            <div className="desc">Scissortail Park OKC, OK 9-28-20</div>
           </div>
         </div>
 

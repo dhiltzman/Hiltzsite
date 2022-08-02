@@ -87,12 +87,35 @@ a.github {
 }
 
 .mavic2{
-  background-image: url("./components/documents/pictures/mavic_2_profile_v2.jpg");
-  background-color: grey;
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative; 
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mavic2::before {
+  object-fit: fill;
+  content: "";
+  background-image: url('./components/documents/pictures/mavic_2_profile_v3.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.mavic2 h1 {
+  position: relative;
+  text-align: center;
+  color: #ffffff;  
+  font-size: 5rem;
+  line-height: 0.9;
+  text-align: center;
+  opacity: 1;
 }
 
 .imageGallery {
