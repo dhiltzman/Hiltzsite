@@ -98,7 +98,7 @@ a.github {
 .mavic2::before {
   object-fit: fill;
   content: "";
-  background-image: url('./components/documents/pictures/mavic_2_profile_v3.jpg');
+  background-image: url('./components/documents/pictures/drone/mavic_2_profile_v3.jpg');
   background-size: cover;
   position: absolute;
   top: 0px;
