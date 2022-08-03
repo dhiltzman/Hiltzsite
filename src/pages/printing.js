@@ -197,7 +197,12 @@ function printing() {
           <dd>This printer has been mostly used for precise molded parts for clients</dd>
           <dd>I also use this printer for Miniature Figurines </dd>
         </dl>
-      <h2>Printing Photos:</h2>
+
+      <h2>The Printing Area:</h2>
+      <p><i>Missing the Tenlog</i></p>
+      <img src={ForgeSetUp} alt="ForgeSetUp" width="50%" height="30%"/>
+      <hr />
+      <h1>Printing Photos:</h1>
 
       {/* React-Image-Gallery 
         https://www.npmjs.com/package/react-image-gallery 
