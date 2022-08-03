@@ -25,6 +25,38 @@ import ViveBaseStation from '../components/documents/pictures/3dprinting/ViveBas
 
 
 const images = [
+  { //MandoWithDarkSaber
+    original: MandoWithDarkSaber,
+    thumbnail: MandoWithDarkSaber,
+    originalAlt: 'MandoWithDarkSaber',
+    thumbnailAlt: 'MandoWithDarkSaber',
+    description: 'MandoWithDarkSaber',
+  },
+
+  { //KenobiLightSaber
+    original: KenobiLightSaber,
+    thumbnail: KenobiLightSaber,
+    originalAlt: 'KenobiLightSaber',
+    thumbnailAlt: 'KenobiLightSaber',
+    description: 'KenobiLightSaber',
+  },
+
+  { //PrusaWIP
+    original: PrusaWIP,
+    thumbnail: PrusaWIP,
+    originalAlt: 'PrusaWIP',
+    thumbnailAlt: 'PrusaWIP',
+    description: 'PrusaWIP',
+  },
+
+  { //Creality
+    original: Creality,
+    thumbnail: Creality,
+    originalAlt: 'Creality',
+    thumbnailAlt: 'Creality',
+    description: 'Creality',
+  },
+
   { //axeInProgress
     original: axeInProgress,
     thumbnail: axeInProgress,
@@ -33,6 +65,14 @@ const images = [
     description: 'Assassin\'s Creed Vahalla Axe in progress, Resin Printed',
   },
 
+  { //ResinBenchy
+    original: ResinBenchy,
+    thumbnail: ResinBenchy,
+    originalAlt: 'ResinBenchy',
+    thumbnailAlt: 'ResinBenchy',
+    description: 'ResinBenchy',
+  },
+  
   { //BadBatchWIP
     original: BadBatchWIP,
     thumbnail: BadBatchWIP,
@@ -55,14 +95,6 @@ const images = [
     originalAlt: 'BadBatchWIPHelmetAndArm',
     thumbnailAlt: 'BadBatchWIPHelmetAndArm',
     description: 'BadBatchWIPHelmetAndArm',
-  },
-
-  { //Creality
-    original: Creality,
-    thumbnail: Creality,
-    originalAlt: 'Creality',
-    thumbnailAlt: 'Creality',
-    description: 'Creality',
   },
 
   { //ExpanseMarine
@@ -89,22 +121,6 @@ const images = [
     description: 'FirstLookAtDamageCasting',
   },
 
-  { //ForgeSetUp
-    original: ForgeSetUp,
-    thumbnail: ForgeSetUp,
-    originalAlt: 'ForgeSetUp',
-    thumbnailAlt: 'ForgeSetUp',
-    description: 'ForgeSetUp',
-  },
-
-  { //KenobiLightSaber
-    original: KenobiLightSaber,
-    thumbnail: KenobiLightSaber,
-    originalAlt: 'KenobiLightSaber',
-    thumbnailAlt: 'KenobiLightSaber',
-    description: 'KenobiLightSaber',
-  },
-
   { //LowPolyThinker
     original: LowPolyThinker,
     thumbnail: LowPolyThinker,
@@ -119,30 +135,6 @@ const images = [
     originalAlt: 'MandoWIP',
     thumbnailAlt: 'MandoWIP',
     description: 'MandoWIP',
-  },
-
-  { //MandoWithDarkSaber
-    original: MandoWithDarkSaber,
-    thumbnail: MandoWithDarkSaber,
-    originalAlt: 'MandoWithDarkSaber',
-    thumbnailAlt: 'MandoWithDarkSaber',
-    description: 'MandoWithDarkSaber',
-  },
-
-  { //PrusaWIP
-    original: PrusaWIP,
-    thumbnail: PrusaWIP,
-    originalAlt: 'PrusaWIP',
-    thumbnailAlt: 'PrusaWIP',
-    description: 'PrusaWIP',
-  },
-
-  { //ResinBenchy
-    original: ResinBenchy,
-    thumbnail: ResinBenchy,
-    originalAlt: 'ResinBenchy',
-    thumbnailAlt: 'ResinBenchy',
-    description: 'ResinBenchy',
   },
 
   { //VaderWIP
@@ -167,6 +159,14 @@ const images = [
     originalAlt: 'ViveBaseStation',
     thumbnailAlt: 'ViveBaseStation',
     description: 'ViveBaseStation',
+  },
+
+  { //ForgeSetUp
+    original: ForgeSetUp,
+    thumbnail: ForgeSetUp,
+    originalAlt: 'ForgeSetUp',
+    thumbnailAlt: 'ForgeSetUp',
+    description: 'ForgeSetUp',
   },
 ]
 function printing() {
