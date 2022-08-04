@@ -1,6 +1,6 @@
 import React from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.parcel2';
-import SinglePagePDFViewer from "../components/single-page.js"; 
+import SinglePagePDFViewer from '../components/single-page.js'; 
 import '../styles.css';
 
 

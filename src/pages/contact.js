@@ -1,7 +1,7 @@
 import React from 'react';
-import SocialFollow from "../components/socialFollow";
-import ContactForm from "../components/contactForm";
-import "../styles.css";
+import SocialFollow from '../components/socialFollow';
+import ContactForm from '../components/contactForm';
+import '../styles.css';
 
 
 function contact() {

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Document, Page } from "react-pdf";
+import React, { useState } from 'react';
+import { Document, Page } from 'react-pdf';
 import { pdfjs } from 'react-pdf';
 
 export default function AllPages(props) {
