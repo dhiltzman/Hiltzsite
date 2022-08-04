@@ -1,18 +1,18 @@
-import React from 'react'
-import { BrowserRouter, Route, Routes, Switch } from "react-router-dom"
+import React from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import AboutPage from './pages/about'
-import ContactPage from './pages/contact'
-import DronePage from './pages/drone'
-import HomePage from './pages/home'
-import PrintingPage from './pages/printing'
-import ResumePage from './pages/resume'
-import ProjectsPage from './pages/projects'
+import AboutPage from '../pages/about';
+import ContactPage from '../pages/contact';
+import DronePage from '../pages/drone';
+import HomePage from '../pages/home';
+import PrintingPage from '../pages/printing';
+import ResumePage from '../pages/resume';
+import ProjectsPage from '../pages/projects';
 
-import Project1Page from './pages/projects/project1.js'
-import Project2Page from './pages/projects/project2.js'
-import Project3Page from './pages/projects/project3.js'
-import ProjectUpcomingPage from './pages/projects/upcoming.js'
+import InebriatatorPage from '../pages/projects/inebriatator';
+import LEDZillaPage from '../pages/projects/LEDZilla';
+import weCAPTCHAPage from '../pages/projects/weCAPTCHA';
+import UpcomingProjectsPage from '../pages/projects/upcoming';
 
 function AppRouter() {
   return (
@@ -39,17 +39,17 @@ function AppRouter() {
             <Route path = "/projects" element={
                 <ProjectsPage />
             } />
-            <Route path = "/projects/project1" element={
-                <Project1Page />
+            <Route path = "/projects/inebriatator" element={
+                <InebriatatorPage />
             } />
-            <Route path = "/projects/project2" element={
-                <Project2Page />
+            <Route path = "/projects/LEDZilla" element={
+                <LEDZillaPage />
             } />
-            <Route path = "/projects/project3" element={
-                <Project3Page />
+            <Route path = "/projects/weCAPTCHA" element={
+                <weCAPTCHAPage />
             } />
             <Route path = "/projects/upcoming-projects" element={
-                <ProjectUpcomingPage />
+                <UpcomingProjectsPage />
             } />
         </Routes>
     </BrowserRouter>

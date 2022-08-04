@@ -1,8 +1,6 @@
-import './App.css';
 import React from 'react';
-import NavBar from './NavBar';
-import AppRouter from './AppRouter';
-import "./styles.css" 
+import AppRouter from './components/AppRouter';
+import "./styles.css" ;
 
 import NavigationBar from './components/NavigationBar';
 import 'bootstrap/dist/css/bootstrap.min.css';

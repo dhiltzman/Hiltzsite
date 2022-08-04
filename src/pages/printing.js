@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import '../styles.css';
 
@@ -184,7 +184,7 @@ function printing() {
         <dt><h3>Prusa MK3S</h3></dt>
         <dd>This is my first investment.</dd>
         <dd>I have had this printer active since 2018, and it's served faithfully!</dd>
-        <dd><i>Multi Material Updgrade Immenient!</i></dd>
+        <dd><i>Multi Material Upgrade Immenient!</i></dd>
         <br />
         <dt><h3>Tenlog TD-D3 Pro</h3></dt>
         <dd>Dual printer head, capable of two colors at a time or support materials</dd>
@@ -193,7 +193,7 @@ function printing() {
         
       <h2>SLA (Stereolithography) printer:</h2>
         <dl>
-          <dt><b>Creality LD002R</b></dt>
+          <dt><h3>Creality LD002R</h3></dt>
           <dd>This printer has been mostly used for precise molded parts for clients</dd>
           <dd>I also use this printer for Miniature Figurines </dd>
         </dl>
