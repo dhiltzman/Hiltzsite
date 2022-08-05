@@ -14,6 +14,8 @@ import LEDZillaPage from '../pages/projects/LEDZilla';
 import HackathonPage from '../pages/projects/weCAPTCHA';
 import UpcomingProjectsPage from '../pages/projects/upcoming';
 
+import ResumeDownload from '../components/documents/Hiltzman_Resume_Fall_2022_v1_0.pdf';
+
 function AppRouter() {
   return (
     <BrowserRouter>
@@ -50,6 +52,10 @@ function AppRouter() {
             } />
             <Route path = "/projects/upcoming-projects" element={
                 <UpcomingProjectsPage />
+            } />
+
+            <Route path = "/resume/download" element={
+                <ResumeDownload />
             } />
         </Routes>
     </BrowserRouter>

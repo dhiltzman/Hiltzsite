@@ -2,7 +2,8 @@ import React from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.parcel2';
 import SinglePagePDFViewer from '../components/single-page.js'; 
 import '../styles.css';
-
+import '../components/AppRouter';
+import Button from 'react-bootstrap/Button';
 
 /* For more information on react-pdf, 
 visit https://github.com/wojtekmaj/react-pdf#configure-pdfjs-worker
@@ -27,13 +28,12 @@ function resume () {
       <p>For more information, take a look into the projects section of the website, 
         or take a look at my LinkedIn for more detailed work experience</p>
         
-      <button 
-        className="button"
-        onPress={() => console.log('Haha gotcha!')}
-      >
-        Download resume
-      </button>
-    
+      <Button 
+        href={resumePDF} 
+        download="HiltzmanResume.pdf">
+        Download Resume
+      </Button>
+
       {/* There is some dead whitespace in here I would like to try down.
           Not sure if it's a pdf issue, or a react issue
       */}
