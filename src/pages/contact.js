@@ -12,7 +12,8 @@ function contact() {
       <p>Follow the links below to view my work, or drop a message below!</p>
 
       <SocialFollow />
-      
+      <p>My Contact Form is having issues with the deploying to AWS, but feel free to shoot me an email at:</p>
+      <p>david.hiltzman@gmail.com</p>
       <ContactForm />
     </div>
   )
