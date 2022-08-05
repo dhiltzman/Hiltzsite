@@ -22,10 +22,6 @@ const home = () => {
             'a Part 107 Certified Drone Pilot.',
             2000,
             'a 3D printing enthusiast.',
-            2000,
-            'a builder.',
-            2000,
-            'a creator.',
             2000
           ]}
           wrapper="h2"
