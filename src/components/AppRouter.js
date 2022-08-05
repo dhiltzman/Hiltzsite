@@ -11,7 +11,7 @@ import ProjectsPage from '../pages/projects';
 
 import InebriatatorPage from '../pages/projects/inebriatator';
 import LEDZillaPage from '../pages/projects/LEDZilla';
-import weCAPTCHAPage from '../pages/projects/weCAPTCHA';
+import HackathonPage from '../pages/projects/weCAPTCHA';
 import UpcomingProjectsPage from '../pages/projects/upcoming';
 
 function AppRouter() {
@@ -27,7 +27,7 @@ function AppRouter() {
             <Route path = "/drone" element={
                 <DronePage />
             } />                     
-            <Route path = "/home" element={
+            <Route path = "/" element={
                 <HomePage />
             } />
            <Route path = "/3D-Printing" element={
@@ -46,7 +46,7 @@ function AppRouter() {
                 <LEDZillaPage />
             } />
             <Route path = "/projects/weCAPTCHA" element={
-                <weCAPTCHAPage />
+                <HackathonPage />
             } />
             <Route path = "/projects/upcoming-projects" element={
                 <UpcomingProjectsPage />

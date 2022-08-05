@@ -6,4 +6,4 @@ function weCAPTCHA() {
   )
 }
 
-export default weCAPTCHA
+export default weCAPTCHA;
