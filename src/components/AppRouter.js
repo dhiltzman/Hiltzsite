@@ -7,7 +7,6 @@ import DronePage from '../pages/drone';
 import HomePage from '../pages/home';
 import PrintingPage from '../pages/printing';
 import ResumePage from '../pages/resume';
-import ProjectsPage from '../pages/projects';
 
 import InebriatatorPage from '../pages/projects/inebriatator';
 import LEDZillaPage from '../pages/projects/LEDZilla';
@@ -38,9 +37,6 @@ function AppRouter() {
            <Route path = "/resume" element={
                 <ResumePage />
             } />                  
-            <Route path = "/projects" element={
-                <ProjectsPage />
-            } />
             <Route path = "/projects/inebriatator" element={
                 <InebriatatorPage />
             } />
